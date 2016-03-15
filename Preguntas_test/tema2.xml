@@ -1,0 +1,16 @@
+<pregunta>
+  <enunciado>¿Cuantos tipos de escabilidad existen en un servidor Web?</enunciado>
+  <opcionA>3 (Vertical, Gradual y Horizontal).</opcionA>
+  <opcionB>1 (Incremental).</opcionB>
+  <opcionC>0 (La escabilidad no es un concepto de sistema Web).</opcionC>
+  <opcionD>2 (Vertical y Horizontal).</opcionD>
+  <solucion>D</solucion>
+</pregunta>
+<pregunta>
+  <enunciado>¿Que diferencia existe entre escabilidad Vertical y Horizontal?</enunciado>
+  <opcionA>La escabilidad Vertical es incrementar el hardware del servidor y escabilidad Horizontal es añadir máquinas a un subsistema de servidores.</opcionA>
+  <opcionB>La escabilidad Horizontal es incrementar el hardware del servidor y escabilidad Vertical es añadir máquinas a un subsistema de servidores.</opcionB>
+  <opcionC>No existe diferencia entre ambas porque es el mismo tipo de escabilidad</opcionC>
+  <opcionD>Ninguna, porque la escabilidad Horizontal no existe.</opcionD>
+  <solucion>A</solucion>
+</pregunta>
