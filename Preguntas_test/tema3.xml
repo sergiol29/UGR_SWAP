@@ -1,0 +1,16 @@
+<pregunta>
+  <enunciado>¿Qué es un Backbone?</enunciado>
+  <opcionA>Servidor principal de una Granja web.</opcionA>
+  <opcionB>Eje secundario de enlace entre máquinas.</opcionB>
+  <opcionC>Eje principal de enlace entre máquinas.</opcionC>
+  <opcionD>Puerta de enlace configurada en los servidores.</opcionD>
+  <solucion>C</solucion>
+</pregunta>
+<pregunta>
+  <enunciado>¿Qué configuración DMZ es más segura?</enunciado>
+  <opcionA>Configuración sin DMZ.</opcionA>
+  <opcionB>Configuración de DMZ Simple.</opcionB>
+  <opcionC>Configuración de DMZ Tradicional.</opcionC>
+  <opcionD>Configuración de DMZ Doble.</opcionD>
+  <solucion>D</solucion>
+</pregunta>
