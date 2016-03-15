@@ -1,0 +1,16 @@
+<pregunta>
+  <enunciado>Una característica de una Granja Web es:</enunciado>
+  <opcionA>Es un sistema independiente funcional y flexible.</opcionA>
+  <opcionB>Son sistemas muy complejos pero muy flexibles y funcionales.</opcionB>
+  <opcionC>Son sistemas muy simples, por tanto, no son flexibles y funcionales.</opcionC>
+  <opcionD>Es un sistema independiente poco funcional y flexible.</opcionD>
+  <solucion>B</solucion>
+</pregunta>
+<pregunta>
+  <enunciado>¿Qué es la escabilidad en un sistema web?</enunciado>
+  <opcionA>Capacidad de poder trasladar los servidores físicos de lugar sin dejar de ofrecer servicios.</opcionA>
+  <opcionB>Dicha definición no existe en un sistema web.</opcionB>
+  <opcionC>Capacidad para dar soporte a un número creciente de usuarios.</opcionC>
+  <opcionD>Ninguna de las anteriores.</opcionD>
+  <solucion>C</solucion>
+</pregunta>
