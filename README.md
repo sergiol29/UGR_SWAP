@@ -1,4 +1,3 @@
-# Ejercicios teoria - SWAP
-> **Autor: Sergio López Ballesteros**
+# UGR_SWAP
 
-Resolución de **ejercicios** para cada tema de la asignatura (Servidores Web de Altas Prestaciones).
+Prácticas de la asignatura SWAP (Servidores web de altas prestaciones) - Grado en Ingeniería Informática en Universidad de Granada
