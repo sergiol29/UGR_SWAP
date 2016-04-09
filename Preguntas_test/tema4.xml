@@ -1,0 +1,16 @@
+<pregunta>
+  <enunciado>¿Cual de los siguientes algoritmos de balanceo de carga no existe?</enunciado>
+  <opcionA>Balanceo basado en ponderación.</opcionA>
+  <opcionB>Balanceo basado en turnos (Round-Robin)</opcionB>
+  <opcionC>Balanceo basado en primero en entrar, primero en salir (FIFO)</opcionC>
+  <opcionD>Balanceo basado en prioridad.</opcionD>
+  <solucion>C</solucion>
+</pregunta>
+<pregunta>
+  <enunciado>¿Qué mejoras obtenemos sustituyendo un balanceador software por un balanceador hardware?</enunciado>
+  <opcionA>Disponen de más funciones que un balanceador software.</opcionA>
+  <opcionB>Los balanceadores hardware pueden disponer de varios niveles de redundancia.</opcionB>
+  <opcionC>Precios más económicos que un balanceador software.</opcionC>
+  <opcionD>Las respuestas A y B son verdaderas.</opcionD>
+  <solucion>D</solucion>
+</pregunta>
