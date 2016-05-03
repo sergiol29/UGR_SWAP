@@ -1,0 +1,16 @@
+<pregunta>
+  <enunciado>¿Qué hardware puede limitar el número de conexiones concurrentes?</enunciado>
+  <opcionA>Procesador o Tarjeta de red.</opcionA>
+  <opcionB>Memoria o Procesador</opcionB>
+  <opcionC>Memoria o HDD</opcionC>
+  <opcionD>Tarjeta de red y HDD</opcionD>
+  <solucion>B</solucion>
+</pregunta>
+<pregunta>
+  <enunciado>¿Qué es httperf?</enunciado>
+  <opcionA>Herramienta de seguridad encargada de controlar las conexiones HTTP para no permitir conexiones maliciosas.</opcionA>
+  <opcionB>Firewall para controlar el número de conexiones HTTP.</opcionB>
+  <opcionC>Herramienta mediante test para medir el rendimiento de sitios web.</opcionC>
+  <opcionD>Servidor web, similar a Apache.</opcionD>
+  <solucion>C</solucion>
+</pregunta>
