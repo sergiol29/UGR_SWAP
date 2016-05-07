@@ -11,7 +11,8 @@ Se puede balancear cualquier protocolo, pero balancearemos los servidores HTTP q
 De esta forma **conseguiremos una infraestructura redundante y de alta disponibilidad**
 
 Instalaremos y configuraremos los **software de balanceo de carga nginx (configurado como proxy)** y **haproxy**.
-Ambas alternativas software no pueden estar en funcionamiento en la misma máquina balanceadora.
+
+Ambas alternativas software **no pueden estar en funcionamiento en la misma máquina balanceadora**.
 
 ### Instalación y configuración de nginx
 Para la **instalación y configuración de nginx**, deberemos estar ***logueados como root en el sistema*** y seguir los siguientes pasos:
