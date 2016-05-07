@@ -177,21 +177,21 @@ Como podemos observar en las siguientes imágenes, que **las dos peticiones las 
 
 ![Generación de peticiones con Curl][captura6]
 
-[captura1]: https://github.com/sergiol29/UGR_SWAP/Practica3/capturas/Estructura_GranjaWeb.png "Estructura Granja Web"
+[captura1]: https://github.com/sergiol29/UGR_SWAP/blob/master/Practica3/capturas/Estructura_GranjaWeb.png "Estructura Granja Web"
 
-[captura2]: https://github.com/sergiol29/UGR_SWAP/Practica3/capturas/Captura1_ImportarClaveNginx.PNG "Importar Clave Nginx"
+[captura2]: https://github.com/sergiol29/UGR_SWAP/blob/master/Practica3/capturas/Captura1_ImportarClaveNginx.PNG "Importar Clave Nginx"
    
-[captura3]: https://github.com/sergiol29/UGR_SWAP/Practica3/capturas/Captura2_AnadirRepositorio.PNG "Añadir Repositorio Nginx"
+[captura3]: https://github.com/sergiol29/UGR_SWAP/blob/master/Practica3/capturas/Captura2_AnadirRepositorio.PNG "Añadir Repositorio Nginx"
 
-[captura4]: https://github.com/sergiol29/UGR_SWAP/Practica3/capturas/Captura3_ConfiguracionNginx.PNG "Fichero de configuración Nginx"
+[captura4]: https://github.com/sergiol29/UGR_SWAP/blob/master/Practica3/capturas/Captura3_ConfiguracionNginx.PNG "Fichero de configuración Nginx"
    
-[captura5]: https://github.com/sergiol29/UGR_SWAP/Practica3/capturas/Captura4_1_Curl.PNG "Generación de peticiones con Curl"
+[captura5]: https://github.com/sergiol29/UGR_SWAP/blob/master/Practica3/capturas/Captura4_1_Curl.PNG "Generación de peticiones con Curl"
    
-[captura6]: https://github.com/sergiol29/UGR_SWAP/Practica3/capturas/Captura4_Curl.PNG "Generación de peticiones con Curl"
+[captura6]: https://github.com/sergiol29/UGR_SWAP/blob/master/Practica3/capturas/Captura4_Curl.PNG "Generación de peticiones con Curl"
    
-[captura7]: https://github.com/sergiol29/UGR_SWAP/Practica3/capturas/Captura5_Configuracion_Weight_Nginx.PNG "Configuración parametro Weight en Nginx"
+[captura7]: https://github.com/sergiol29/UGR_SWAP/blob/master/Practica3/capturas/Captura5_Configuracion_Weight_Nginx.PNG "Configuración parametro Weight en Nginx"
    
-[captura8]: https://github.com/sergiol29/UGR_SWAP/Practica3/capturas/Captura6_Configuracion_haproxy.PNG "Fichero de configuración HaProxy"
+[captura8]: https://github.com/sergiol29/UGR_SWAP/blob/master/Practica3/capturas/Captura6_Configuracion_haproxy.PNG "Fichero de configuración HaProxy"
 
 
 
