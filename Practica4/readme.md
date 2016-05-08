@@ -2,7 +2,7 @@
 > **Autor: Sergio López Ballesteros**
 
 ### Introducción
-Existen diversas **herramientas para comprobar el rendimiento de servidores web** basadas en linea de comandos o interfaz gráfica.
+Existen diversas **herramientas para comprobar el rendimiento de servidores web** basadas en línea de comandos o interfaz gráfica.
 
 Con estas herramientas **podemos analizar el rendimiento de servidores** Apache, Internet Information Services (IIS), nginx, etc.
 
@@ -77,7 +77,7 @@ En cambio, la **comparación de ambos balanceadores de carga** *"haproxy"* es un
 
 ![Gráfica Request Per Second][captura6]
 
-En la **gráfica anterior** *"Request Per Second"* podemos observar una **comparación del número de peticiones que responde por segundo cada máquina** y podemos ver como **como el servidor solo responde muchas más peticiones** que ambos balanceadores.
+En la **gráfica anterior** *"Request Per Second"* podemos observar una **comparación del número de peticiones que responde por segundo cada máquina** y podemos ver como **el servidor solo responde muchas más peticiones** que ambos balanceadores.
 
 Esto se debe a que como se ha explicado antes las **peticiones contra el servidor solo son más rápidas**. 
 
