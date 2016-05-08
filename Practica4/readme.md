@@ -143,7 +143,7 @@ En la **gráfica anterior** *"Longest Transaction"* podemos observar una **compa
 ### Anexo
 Los **datos de las mediciones** para cada máquina y **gráficas resultantes** pueden visitarse en el siguiente enlace: [Mediciones y Gráficas](https://github.com/sergiol29/UGR_SWAP/blob/master/Practica4/Resultados_Ejecuciones.xlsx "Mediciones y Gráficas")
 
-[captura1]: https://github.com/sergiol29/UGR_SWAP/blob/master/Practica4/capturas/Estructura_Granja_Web.PNG "Estructura Granja Web"
+[captura1]: https://github.com/sergiol29/UGR_SWAP/blob/master/Practica4/capturas/Estructura_Granja_Web.png "Estructura Granja Web"
 
 [captura2]: https://github.com/sergiol29/UGR_SWAP/blob/master/Practica4/capturas/Ejecucion_1_ab.PNG "Comando AB"
 
