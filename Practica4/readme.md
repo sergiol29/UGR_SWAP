@@ -17,6 +17,8 @@ Utilizaremos las siguientes **herramientas para comprobar el rendimiento de nues
 
 ![Estructura Granja Web][captura1]
 
+
+
 ### Rendimiento de servidores web con Apache Benchmark
 
 **Apache Benchmark (ab) es una utilidad del servidor Apache y permite comprobar el rendimiento de un servidor web**.
@@ -40,6 +42,7 @@ Si no disponemos de Apache Benchmark, **instalamos el paquete con la orden**:
 ```sh
 # apt-get install apache2-utils
 ```
+
 
 #### Pruebas rendimiento con Apache Benchmark
 Por tanto, vamos a someter a **pruebas de rendimiento a nuestras máquinas servidoras finales y máquina balanceadora de carga con el software de balanceo *nginx* y *haproxy*** en funcionamiento, alternativamente.
@@ -101,6 +104,7 @@ Si no disponemos de Siege, **instalamos el paquete con la orden**:
 # apt-get install siege
 ```
 
+
 #### Pruebas rendimiento con Siege
 Por tanto, vamos a someter a **pruebas de rendimiento a nuestras máquinas servidoras finales y máquina balanceadora de carga con el software de balanceo *nginx* y *haproxy*** en funcionamiento, alternativamente.
 
@@ -139,6 +143,8 @@ En la **gráfica anterior** *"Transaction Rate"* podemos observar una **comparac
 ![Gráfica Longest Transaction][captura13]
 
 En la **gráfica anterior** *"Longest Transaction"* podemos observar una **comparación de las peticiones más largas** y podemos ver como el **balanceador haproxy realiza las peticiones más largas**, ya que tiene un tiempo de respuesta mayor.
+
+
 
 ### Anexo
 Los **datos de las mediciones** para cada máquina y **gráficas resultantes** pueden visitarse en el siguiente enlace: [Mediciones y Gráficas](https://github.com/sergiol29/UGR_SWAP/blob/master/Practica4/Resultados_Ejecuciones.xlsx "Mediciones y Gráficas")
