@@ -2,6 +2,8 @@
 > **Autor: Sergio López Ballesteros**
 
 ### Introducción
+----------
+
 Existen diversas **herramientas para comprobar el rendimiento de servidores web** basadas en línea de comandos o interfaz gráfica.
 
 Con estas herramientas **podemos analizar el rendimiento de servidores** Apache, Internet Information Services (IIS), nginx, etc.
@@ -20,6 +22,7 @@ Utilizaremos las siguientes **herramientas para comprobar el rendimiento de nues
 
 
 ### Rendimiento de servidores web con Apache Benchmark
+----------
 
 **Apache Benchmark (ab) es una utilidad del servidor Apache y permite comprobar el rendimiento de un servidor web**.
 
@@ -45,9 +48,9 @@ Si no disponemos de Apache Benchmark, **instalamos el paquete con la orden**:
 
 
 #### Pruebas rendimiento con Apache Benchmark
-Por tanto, vamos a someter a **pruebas de rendimiento a nuestras máquinas servidoras finales y máquina balanceadora de carga con el software de balanceo** *nginx* y *haproxy* en funcionamiento, alternativamente.
-
 ----------
+
+Por tanto, vamos a someter a **pruebas de rendimiento a nuestras máquinas servidoras finales y máquina balanceadora de carga con el software de balanceo** *nginx* y *haproxy* en funcionamiento, alternativamente.
 
 Para las **pruebas de rendimiento hacia el servidor final y balanceador de carga con diferentes software de balanceo, ejecutaremos 5000 peticiones de 10 en 10**, mediante la siguiente instrucción cambiando la IP por la necesaria:
 
@@ -61,7 +64,7 @@ Dicha **instrucción nos devuelve diferentes parámetros de la prueba ejecutada*
 
 ![Ejecución AB][captura3]
   
-Tras realizar varias **medidas sobre nuestras máquinas servidoras finales y máquina balanceadora de carga con el software de balanceo** *nginx* y *haproxy* y obtener la información que necesitamos valorar, los **resultados obtenidos** son los siguientes:
+Tras realizar varias **medidas sobre nuestras máquinas servidoras finales y máquina balanceadora de carga con el software de balanceo** *nginx* / *haproxy* y obtener la información que necesitamos valorar, los **resultados obtenidos** son los siguientes:
 
 ![Datos ejecución AB][captura4]
 
@@ -82,6 +85,8 @@ En la **gráfica anterior** *"Request Per Second"* podemos observar una **compar
 Esto se debe a que como se ha explicado antes las **peticiones contra el servidor solo son más rápidas**. 
 
 ### Rendimiento de servidores web con Siege
+----------
+
 **Siege es una herramienta de generación de carga HTTP para benchmarking**, a través de línea de comandos. Permite **realizar baterías de tests contra varias URLs diferentes del mismo servidor**, en lugar de usar la misma URL.
 
 Dispone de **diferentes modos de ejecución**: 
@@ -106,11 +111,11 @@ Si no disponemos de Siege, **instalamos el paquete con la orden**:
 
 
 #### Pruebas rendimiento con Siege
-Por tanto, vamos a someter a **pruebas de rendimiento a nuestras máquinas servidoras finales y máquina balanceadora de carga con el software de balanceo *nginx* y *haproxy*** en funcionamiento, alternativamente.
-
 ----------
 
-Para las **pruebas de rendimiento hacia el servidor final y balanceador de carga con diferentes software de balanceo, ejecutaremos durante 60 segundos sin pausas entre cada y balanceador de carga con diferentes software de balanceo con 15 usuarios concurrentes**, mediante la siguiente instrucción cambiando la IP por la necesaria:
+Por tanto, vamos a someter a **pruebas de rendimiento a nuestras máquinas servidoras finales y máquina balanceadora de carga con el software de balanceo *nginx* y *haproxy*** en funcionamiento, alternativamente.
+
+Para las **pruebas de rendimiento hacia el servidor final y balanceador de carga con diferentes software de balanceo, ejecutaremos durante 60 segundos sin pausas entre cada petición y con 15 usuarios concurrentes**, mediante la siguiente instrucción cambiando la IP por la necesaria:
 
 ```sh
 $ siege -b -t60S -v http://192.168.30.137
@@ -123,7 +128,7 @@ Dicha **instrucción nos devuelve diferentes parámetros de la prueba ejecutada*
 
 ![Ejecución Siege][captura8]
 
-Tras realizar varias **medidas sobre nuestras máquinas servidoras finales y máquina balanceadora de carga con el software de balanceo *nginx* y *haproxy*** y obtener la información que necesitamos valorar, los **resultados obtenidos** son los siguientes:
+Tras realizar varias **medidas sobre nuestras máquinas servidoras finales y máquina balanceadora de carga con el software de balanceo** *nginx* / *haproxy* y obtener la información que necesitamos valorar, los **resultados obtenidos** son los siguientes:
 
 ![Datos ejecución Siege][captura9]
 ![Datos ejecución Siege][captura10]
@@ -147,6 +152,8 @@ En la **gráfica anterior** *"Longest Transaction"* podemos observar una **compa
 
 
 ### Anexo
+----------
+
 Los **datos de las mediciones** para cada máquina y **gráficas resultantes** pueden visitarse en el siguiente enlace: [Mediciones y Gráficas](https://github.com/sergiol29/UGR_SWAP/blob/master/Practica4/Resultados_Ejecuciones.xlsx "Mediciones y Gráficas")
 
 [captura1]: https://github.com/sergiol29/UGR_SWAP/blob/master/Practica4/capturas/Estructura_Granja_Web.png "Estructura Granja Web"
