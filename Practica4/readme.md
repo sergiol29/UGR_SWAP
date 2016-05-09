@@ -45,7 +45,7 @@ Si no disponemos de Apache Benchmark, **instalamos el paquete con la orden**:
 
 
 #### Pruebas rendimiento con Apache Benchmark
-Por tanto, vamos a someter a **pruebas de rendimiento a nuestras máquinas servidoras finales y máquina balanceadora de carga con el software de balanceo *nginx* y *haproxy*** en funcionamiento, alternativamente.
+Por tanto, vamos a someter a **pruebas de rendimiento a nuestras máquinas servidoras finales y máquina balanceadora de carga con el software de balanceo *nginx* y *haproxy* en funcionamiento, alternativamente.
 
 ----------
 
@@ -69,7 +69,7 @@ Realizamos una **comparación entre las tres máquinas y obtenemos las siguiente
 
 ![Gráfica Time Taken Test][captura5]
 
-En la **gráfica anterior** *"Time Taken Test"* podemos observar una **comparación del tiempo que tarda cada máquina en realizar los test** y podemos ver como **las pruebas contra el servidor solo son el doble más rápidas que las otras dos máquinas**. 
+En la **gráfica anterior** *"Time Taken Test"* podemos observar una **comparación del tiempo que tarda cada máquina en realizar los test** y podemos ver como **las pruebas contra el servidor solo, son el doble más rápidas que los balanceadores**. 
 
 Esto se debe a que **los test van directos hacia el servidor final sin tener que pasar por el balanceador de carga**.
 
