@@ -45,7 +45,7 @@ Si no disponemos de Apache Benchmark, **instalamos el paquete con la orden**:
 
 
 #### Pruebas rendimiento con Apache Benchmark
-Por tanto, vamos a someter a **pruebas de rendimiento a nuestras máquinas servidoras finales y máquina balanceadora de carga con el software de balanceo *nginx* y *haproxy* en funcionamiento, alternativamente.
+Por tanto, vamos a someter a **pruebas de rendimiento a nuestras máquinas servidoras finales y máquina balanceadora de carga con el software de balanceo** *nginx* y *haproxy* en funcionamiento, alternativamente.
 
 ----------
 
