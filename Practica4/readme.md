@@ -61,7 +61,7 @@ Dicha **instrucción nos devuelve diferentes parámetros de la prueba ejecutada*
 
 ![Ejecución AB][captura3]
   
-Tras realizar varias **medidas sobre nuestras máquinas servidoras finales y máquina balanceadora de carga con el software de balanceo *nginx* y *haproxy*** y obtener la información que necesitamos valorar, los **resultados obtenidos** son los siguientes:
+Tras realizar varias **medidas sobre nuestras máquinas servidoras finales y máquina balanceadora de carga con el software de balanceo** *nginx* y *haproxy* y obtener la información que necesitamos valorar, los **resultados obtenidos** son los siguientes:
 
 ![Datos ejecución AB][captura4]
 
