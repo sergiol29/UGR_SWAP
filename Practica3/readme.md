@@ -1,7 +1,7 @@
 # Práctica 3 - Balanceo de carga
 > **Autor: Sergio López Ballesteros**
 
-### Introducción
+### 1. Introducción
 Para **solucionar el problema de sobrecarga en los servidores**, **configuraremos una red entre varias máquinas de forma que tengamos un balanceador que reparta la carga entre varios servidores finales**, quedando una estructura como podemos observar en la siguiente imagen.
 
 ![Estructura Granja Web][captura1]
@@ -14,7 +14,7 @@ Instalaremos y configuraremos los **software de balanceo de carga nginx (configu
 
 Ambas alternativas software **no pueden estar en funcionamiento en la misma máquina balanceadora**.
 
-### Instalación y configuración de nginx
+### 2. Instalación y configuración de nginx
 Para la **instalación y configuración de nginx**, deberemos estar ***logueados como root en el sistema*** y seguir los siguientes pasos:
 
 1 .- **Importaremos la clave del repositorio** de software, mediante los siguientes comandos:
@@ -122,7 +122,7 @@ Como podemos observar en la siguiente imagen:
 En esta configuración, **la primera máquina servidora es menos potente o más sobrecargada, así que le hemos asignado menos carga de trabajo que a la segunda** (*de cada tres peticiones que lleguen, la segunda máquina atiende dos y la primera atenderá una*).
 
 
-### Instalación y configuración de haproxy
+### 3. Instalación y configuración de haproxy
 Para la **instalación y configuración de haproxy**, deberemos estar ***logueados como root en el sistema*** y seguir los siguientes pasos:
 
 1 .- **Instalar haproxy**, mediante la siguiente orden:
