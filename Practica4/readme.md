@@ -1,7 +1,7 @@
 # Práctica 4 - Comprobar el rendimiento de servidores web
 > **Autor: Sergio López Ballesteros**
 
-### Introducción
+### 1. Introducción
 ----------
 
 Existen diversas **herramientas para comprobar el rendimiento de servidores web** basadas en línea de comandos o interfaz gráfica.
@@ -21,7 +21,7 @@ Utilizaremos las siguientes **herramientas para comprobar el rendimiento de nues
 
 
 
-### Rendimiento de servidores web con Apache Benchmark
+### 2. Rendimiento de servidores web con Apache Benchmark
 ----------
 
 **Apache Benchmark (ab) es una utilidad del servidor Apache y permite comprobar el rendimiento de un servidor web**.
@@ -47,7 +47,7 @@ Si no disponemos de Apache Benchmark, **instalamos el paquete con la orden**:
 ```
 
 
-#### Pruebas rendimiento con Apache Benchmark
+#### 2.1 Pruebas rendimiento con Apache Benchmark
 ----------
 
 Por tanto, vamos a someter a **pruebas de rendimiento a nuestras máquinas servidoras finales y máquina balanceadora de carga con el software de balanceo** *nginx* y *haproxy* en funcionamiento, alternativamente.
@@ -84,7 +84,7 @@ En la **gráfica anterior** *"Request Per Second"* podemos observar una **compar
 
 Esto se debe a que como se ha explicado antes las **peticiones contra el servidor solo son más rápidas**. 
 
-### Rendimiento de servidores web con Siege
+### 3. Rendimiento de servidores web con Siege
 ----------
 
 **Siege es una herramienta de generación de carga HTTP para benchmarking**, a través de línea de comandos. Permite **realizar baterías de tests contra varias URLs diferentes del mismo servidor**, en lugar de usar la misma URL.
@@ -110,7 +110,7 @@ Si no disponemos de Siege, **instalamos el paquete con la orden**:
 ```
 
 
-#### Pruebas rendimiento con Siege
+#### 3.1 Pruebas rendimiento con Siege
 ----------
 
 Por tanto, vamos a someter a **pruebas de rendimiento a nuestras máquinas servidoras finales y máquina balanceadora de carga con el software de balanceo *nginx* y *haproxy*** en funcionamiento, alternativamente.
@@ -151,7 +151,7 @@ En la **gráfica anterior** *"Longest Transaction"* podemos observar una **compa
 
 
 
-### Anexo
+### 4. Anexo
 ----------
 
 Los **datos de las mediciones** para cada máquina y **gráficas resultantes** pueden visitarse en el siguiente enlace: [Mediciones y Gráficas](https://github.com/sergiol29/UGR_SWAP/blob/master/Practica4/Resultados_Ejecuciones.xlsx "Mediciones y Gráficas")
