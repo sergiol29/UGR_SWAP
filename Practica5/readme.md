@@ -62,7 +62,7 @@ Una vez bloqueada la escritura en la BD, **volcamos la copia de la BD en un fich
 # mysqldump contactos -u root -p > /home/sergio/contactos.sql
 ```
 
-**Una vez realizado el volcado desbloqueado las tablas** para que se pueda seguir escribiendo en ellas.
+**Una vez realizado el volcado desbloqueamos las tablas** para que se pueda seguir escribiendo en ellas.
 
 ```sh
 # mysql -uroot -p
@@ -106,7 +106,7 @@ Comprobamos que los datos han sido volcados correctamente.
 
 ![Comprobacion Volcado BD][captura6]
 
-Para **casos en los que ya se encuentre creada la BD en el servidor esclavo**, podemos **copiar los datos directamente desde el servidor en producción que tiene la BD original a la BD del servidor esclavo **, mediante la siguiente sintaxis de comando:
+Para **casos en los que ya se encuentre creada la BD en el servidor esclavo**, podemos **copiar los datos directamente desde el servidor en producción que tiene la BD original a la BD del servidor esclavo**, mediante la siguiente sintaxis de comando:
 
 ```sh
 # mysqldump contactos -u root -p | ssh <IP_equipo_destino> mysql
@@ -124,10 +124,10 @@ Para **realizar la replicación de BD automática entre servidores maestro - esc
 
 1 -. Debemos **tener la BD clonada** en ambas máquinas.
 
-2 -. **Configuración del servicio MySQL** en el servidor maestro:
+2 -. **Configuración del servicio MySQL** en el **servidor maestro**:
 
  - **Editamos como root, el fichero de configuración** de MySQL *"/etc/mysql/my.cnf"*:
- - Comentamos el parámetro bind-address que sirve para que escuche a un servidor
+ - Comentamos el **parámetro bind-address** que sirve para que escuche a un servidor
 
 ```sh
 #bind-address 127.0.0.1
@@ -160,9 +160,10 @@ log_bin = /var/log/mysql/bin.log
 - Si el reinicio no genera **ningún error la configuración en el maestro es correcta**.
 
 Como podemos observar en la siguiente imagen:
+
 ![Configuración MySQL en Master][captura7]
 
-3 -. **Configuración del servicio MySQL** en el servidor esclavo:
+3 -. **Configuración del servicio MySQL** en el **servidor esclavo**:
 
  - **Editamos como root, el fichero de configuración** de MySQL *"/etc/mysql/my.cnf"*:
  
@@ -200,9 +201,6 @@ Master-password = Pass_bd
 
 - Si el reinicio no genera **ningún error la configuración en el maestro es correcta**.
 
-Como podemos observar en la siguiente imagen:
-imagen fichero configuracion mysql server esclavo
-
 4 -. **Creación usuario y permisos de acceso en MySQL**:
 Accedemos de nuevo al servidor maestro y creamos un usuario con sus respectivos permisos para acceder a la BD, mediante los siguientes comandos:
 
@@ -236,7 +234,7 @@ Si nuestra **versión de mysql es superior a la 5.5,** debemos **configurar los 
 # mysql -uroot -p
 mysql> CHANGE MASTER TO MASTER_HOST='DIRECCION_IP_MASTER',
 MASTER_USER='esclavo', MASTER_PASSWORD='esclavo',
-MASTER_LOG_FILE='mysql-bin.000001', MASTER_PORT=3306;
+MASTER_LOG_FILE='bin.000003', MASTER_PORT=3306;
 ```
 
 Como podemos observar en la siguiente imagen.
@@ -278,7 +276,7 @@ mysql> SHOW SLAVE STATUS\G
 
 Como podemos observar en mi caso, todo esta correcto.
 
-![Variable Seconds Behind Master][captura14]
+![Variable Seconds Behind Master][captura15]
 
 [captura1]: https://github.com/sergiol29/UGR_SWAP/blob/master/Practica5/capturas/1_Create_Database_Master.PNG "Creación BD en Master"
 
@@ -292,7 +290,7 @@ Como podemos observar en mi caso, todo esta correcto.
 
 [captura6]: https://github.com/sergiol29/UGR_SWAP/blob/master/Practica5/capturas/5_1_Comprobacion_Volcado_BD.PNG "Comprobación Volcado BD"
 
-[captura7]: https://github.com/sergiol29/UGR_SWAP/blob/master/Practica5/capturas/6_File_Configuration_Master_MySQL.PNG "Configuración MySQL en Master"
+[captura7]: https://github.com/sergiol29/UGR_SWAP/blob/master/Practica5/capturas/6_File_Configuration_Master_MySQL.png "Configuración MySQL en Master"
 
 [captura8]: https://github.com/sergiol29/UGR_SWAP/blob/master/Practica5/capturas/7_File_Configuration_Slave_MySQL.PNG "Configuración MySQL en Esclavo"
 
