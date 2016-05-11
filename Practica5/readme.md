@@ -304,6 +304,6 @@ Como podemos observar en mi caso, todo esta correcto.
 
 [captura13]: https://github.com/sergiol29/UGR_SWAP/blob/master/Practica5/capturas/12_Start_Slave.PNG "Iniciar máquina Esclava"
 
-[captura14]: https://github.com/sergiol29/UGR_SWAP/blob/master/Practica5/capturas/13_Master_Slave_BD.PNG "Replica Datos Maestro-Esclavo"
+[captura14]: https://github.com/sergiol29/UGR_SWAP/blob/master/Practica5/capturas/13_Master_Replica_Slave_BD.PNG "Replica Datos Maestro-Esclavo"
 
 [captura15]: https://github.com/sergiol29/UGR_SWAP/blob/master/Practica5/capturas/14_Seconds_Behind_Master.PNG "Variable Seconds Behind Master"
