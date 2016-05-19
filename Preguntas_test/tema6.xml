@@ -1,0 +1,16 @@
+<pregunta>
+  <enunciado>¿Qué definen las políticas de privacidad?</enunciado>
+  <opcionA>Definen que las comunicaciones deben ser secretas</opcionA>
+  <opcionB>Definen cómo se les permite interaccionar a los usuarios con los servidores y el hardware de la red del sistema web</opcionB>
+  <opcionC>Definen que los mensajes enviados deben ser exactamente los recibidos</opcionC>
+  <opcionD>Definen que la comunicación con cualquier aplicación o servicio de la granja web debe estar disponible en cualquier momento</opcionD>
+  <solucion>B</solucion>
+</pregunta>
+<pregunta>
+  <enunciado>Indiqué de las siguientes opciones cuáles son tareas que realizan los cortafuegos:</enunciado>
+  <opcionA>Bloquear y filtrar paquetes.</opcionA>
+  <opcionB>Ocultar la verdadera dirección del servidor.</opcionB>
+  <opcionC>Controlar protocolos de aplicación.</opcionC>
+  <opcionD>Todas son tareas del cortafuegos.</opcionD>
+  <solucion>D</solucion>
+</pregunta>
