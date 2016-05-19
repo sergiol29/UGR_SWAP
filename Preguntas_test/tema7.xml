@@ -1,0 +1,16 @@
+<pregunta>
+  <enunciado>¿Qué significa el término "hot spare" en la tecnología RAID?</enunciado>
+  <opcionA>Protocolo de intercambio de datos entre discos RAID</opcionA>
+  <opcionB>Cambio inmediato de un disco en caliente de forma manual.</opcionB>
+  <opcionC>Usar uno o varios discos de reserva, para usarse inmediatamente y de forma automática tras el fallo de uno de los discos.</opcionC>
+  <opcionD>Dicho término no existe.</opcionD>
+  <solucion>C</solucion>
+</pregunta>
+<pregunta>
+  <enunciado>¿Cuál es el principal problema de la tecnología RAID 0?</enunciado>
+  <opcionA>No poder acceder a varios bloques consecutivos al mismo tiempo.</opcionA>
+  <opcionB>No ofrece protección contra fallos en los discos, ya que no se escribe información duplicada.</opcionB>
+  <opcionC>Gran lentitud en velocidad de lectura y escritura.</opcionC>
+  <opcionD>A y C son correctas.</opcionD>
+  <solucion>B</solucion>
+</pregunta>
